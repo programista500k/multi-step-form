@@ -1,14 +1,17 @@
+import { webpage, html } from "@benev/turtle";
+
+export default webpage(async ({ v }) => html`
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-	<script type="importmap-shim" src="/x/importmap.json"></script>
-	<script type="module-shim" src="/x/main.bundle.js"></script>
-	<script defer src="/node_modules/es-module-shims/dist/es-module-shims.wasm.js"></script>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+	<script type="importmap-shim" src="${v("/importmap.json")}"></script>
+	<script type="module-shim" src="${v("/main.bundle.js")}"></script>
+	<script defer src="${v("/node_modules/es-module-shims/dist/es-module-shims.js")}"></script>
+	<link rel="preconnect" href="${v("https://fonts.googleapis.com")}">
+	<link rel="preconnect" href="${v("https://fonts.gstatic.com")}" crossorigin>
+	<link href="${v("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap")}" rel="stylesheet">
 	<style>
 		html {
 			display: flex; 
@@ -35,3 +38,4 @@
 	<info-panel></info-panel>
 </body>
 </html>
+`)
