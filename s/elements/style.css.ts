@@ -33,7 +33,7 @@ h1,h2 {
 	max-width: 580px;
 }
 .sidebar {
-	background-image: url(./../../../assets/images/bg-sidebar-desktop.svg);
+	background-image: url("./../../../assets/images/bg-sidebar-desktop.svg");
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
