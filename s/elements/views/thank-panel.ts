@@ -5,7 +5,7 @@ export const ThankPanel = view({}, use => () => {
 	return html`
 		<div class="main-panel thank-panel">
 			<div>
-				<img src="../../../assets/images/icon-thank-you.svg"/>
+				<img src="./assets/images/icon-thank-you.svg"/>
 				<h1>Thank you!</h1>
 				<p>
 					Thanks for confirming your subscription! We hope you have fun

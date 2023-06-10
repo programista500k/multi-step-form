@@ -26,7 +26,7 @@ export const PlanSelect = view({}, use => (
 						data-checked=${planID === "Arcade"} 
 						@pointerdown=${() => setPlan({ planID: "Arcade", cost: 9 })}>
 
-						<img class="icon" src="./../../../assets/images/icon-arcade.svg">
+						<img class="icon" src="./assets/images/icon-arcade.svg">
 						<h2>Arcade</h2>
 						<p>$9/mo</p>
 						${yearly ? html`<span>2 months free</span>` : null}
@@ -37,7 +37,7 @@ export const PlanSelect = view({}, use => (
 						data-checked=${planID === "Advanced"}
 						@pointerdown=${() => setPlan({ planID: "Advanced", cost: 12 })}>
 
-						<img class="icon" src="./../../../assets/images/icon-advanced.svg">
+						<img class="icon" src="./assets/images/icon-advanced.svg">
 						<h2>Advanced</h2>
 						<p>$12/mo</p>
 						${yearly ? html`<span>2 months free</span>` : null}
@@ -48,7 +48,7 @@ export const PlanSelect = view({}, use => (
 						data-checked=${planID === "Pro"} 
 						@pointerdown=${() => setPlan({ planID: "Pro", cost: 15 })}>
 
-						<img class="icon" src="./../../../assets/images//icon-pro.svg">
+						<img class="icon" src="./assets/images//icon-pro.svg">
 						<h2>Pro</h2>
 						<p>$15/mo</p>
 						${yearly ? html`<span>2 months free</span>` : null}
