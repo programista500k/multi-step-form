@@ -55,7 +55,7 @@ Users should be able to:
 I'm learning how to write clean code and as uderstandable for another human being
 
 ### Continued development
-I need to refine my css skills as im sure it could be done better, 
+I need to refine my css skills as im sure it could be done better
 
 ### Useful resources
 honestly, thorough this project I have been using just https://lit.dev/ documentation and mozilla docs
