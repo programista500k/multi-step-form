@@ -311,7 +311,7 @@ h1 {
 @media only screen and (max-width: 700px) {
 	.sidebar {
 		position: relative;
-		background-image: url(../../../assets/images/bg-sidebar-mobile.svg);
+		background-image: url("./assets/images/bg-sidebar-mobile.svg");
 		min-width: 100vw;
 		background-size: 100%;
 		background-repeat: no-repeat;
